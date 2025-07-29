@@ -1,8 +1,10 @@
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 # Dump-Restoration
 
 > **Straightforward Approach:** Drop the old table, recreate an empty `ecpmp` table placeholder, copy your SQL dump into the container (it will auto-import on startup), and then verify in TablePlus.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## Prerequisites
 
@@ -11,7 +13,7 @@
 * Basic terminal familiarity.
 * (Optional) TablePlus or another GUI client to inspect tables.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## Step 1: Drop Previous & Create a Blank `ecpmp` Table
 
@@ -41,7 +43,7 @@
    exit
    ```
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## Step 2: Copy the Dump File into the Container
 
@@ -65,12 +67,14 @@ docker restart pg_container
 
 Container logs will show the import progress.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## Step 4: Verify in TablePlus
 
 1. Open TablePlus and connect to your `mydb` database.
 2. Select the `ecpmp` table.
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 3. Check the **row count** and browse a few records to confirm successful import.
 
 ---
