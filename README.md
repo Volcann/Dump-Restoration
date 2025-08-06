@@ -76,7 +76,4 @@ Container logs will show the import progress.
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 3. Check the **row count** and browse a few records to confirm successful import.
-
----
-
-You're all set! 🎉  This flow ensures the dump is applied automatically without manual `psql` commands. If anything goes wrong, check container logs (`docker logs pg_container`) for errors and verify file permissions.
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
